@@ -1,0 +1,30 @@
+.entry-banner{
+    padding: 15% 15%;
+}
+h1{
+    font-size: 80px;
+}
+#navbar{
+    padding: 1% 5%;
+    color: #88c0d0;
+}
+#about h1{
+    font-size: 50px;
+}
+.jumbotron{
+    padding: 3% 0%;
+    background-color: aquamarine;
+    margin: 5% 15%;
+    text-align: center;
+}
+.title{
+    padding: 3% 0%
+}
+.card-deck{
+    margin: 3% 0%;
+}
+
+body{
+    background-color: #242933;
+    color: #88c0d0;
+}
