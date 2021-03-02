@@ -1,9 +1,7 @@
 .entry-banner{
     padding: 15% 15%;
 }
-h1{
-    font-size: 80px;
-}
+
 #navbar{
     padding: 1% 5%;
     color: #88c0d0;
@@ -11,7 +9,7 @@ h1{
 .entry-banner h1{
     font-size: 120px;
 }
-#about h1{
+h1{
     font-size: 50px;
 }
 #about{
@@ -23,6 +21,8 @@ h1{
     background-color: aquamarine;
     margin: 5% 15%;
     text-align: center;
+    border-radius: 8px;
+
 }
 .title{
     padding: 3% 0%
@@ -35,3 +35,30 @@ body{
     background-color:black;
     color: #88c0d0;
 }
+.partner{
+    margin-top: 5%;
+}
+
+.contact-form-body{
+    background-color: aquamarine;
+    color: black;
+    margin: 5% 10%;
+    padding: 2%;
+    border-radius: 8px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
