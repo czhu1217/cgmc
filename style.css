@@ -1,5 +1,10 @@
 .entry-banner{
     padding: 15% 15%;
+    background: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7)), url(./images/mathgirl.jpeg); /* Browser prefixes*/
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	padding: 14.7% 0; /* Center contents within the container, make background image cover*/
 }
 
 #navbar{
@@ -8,6 +13,7 @@
 }
 .entry-banner h1{
     font-size: 120px;
+    color: #d8dee9;
 }
 h1{
     font-size: 50px;
@@ -18,7 +24,7 @@ h1{
 }
 .jumbotron{
     padding: 3% 0%;
-    background-color: aquamarine;
+    background-color: #96bcc7;
     margin: 5% 15%;
     text-align: center;
     border-radius: 8px;
@@ -32,7 +38,7 @@ h1{
 }
 
 body{
-    background-color:black;
+    background-color:rgb(33, 37, 41);
     color: #88c0d0;
 }
 .partner{
@@ -40,8 +46,8 @@ body{
 }
 
 .contact-form-body{
-    background-color: aquamarine;
-    color: black;
+    background-color: #aceda4;
+    color: #5d5c61;
     margin: 5% 10%;
     padding: 2%;
     border-radius: 8px;
